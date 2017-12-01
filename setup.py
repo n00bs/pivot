@@ -7,7 +7,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='pivot',
     version='0.2',
-    packages=['pivot'],
+    packages=['pivot_v2'],
     include_package_data=True,
     install_requires=[
         'Django',
